@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.mc</groupId>
+		<artifactId>mc-springcloudext</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>mc-springcloudext-core</artifactId>
+	<name>mc-springcloudext-core</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<kxml2.version>2.3.0</kxml2.version>
+		<commonsl3.version>3.9</commonsl3.version>
+		<slf4j.api>1.7.28</slf4j.api>
+		<commons-codec>1.10</commons-codec>
+		<gson>2.8.5</gson>
+		<jackson>2.9.9</jackson>
+		<staxon>1.3</staxon>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${gson}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.api}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.kxml</groupId>
+			<artifactId>kxml2</artifactId>
+			<version>${kxml2.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commonsl3.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>${commons-codec}</version>
+		</dependency>
+		<dependency>
+			<groupId>de.odysseus.staxon</groupId>
+			<artifactId>staxon</artifactId>
+			<version>${staxon}</version>
+		</dependency>
+
+	</dependencies>
+</project>
