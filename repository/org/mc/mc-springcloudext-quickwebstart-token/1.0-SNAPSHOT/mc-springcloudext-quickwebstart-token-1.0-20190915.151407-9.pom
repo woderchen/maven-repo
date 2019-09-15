@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+	  <groupId>org.mc</groupId>
+	  <artifactId>mc-springcloudext</artifactId>
+	  <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>mc-springcloudext-quickwebstart-token</artifactId>
+  <name>mc-springcloudext-quickwebstart-token</name>
+  
+   <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jsonwebtoken.v>0.7.0</jsonwebtoken.v>
+	</properties>
+  <dependencies>
+	  <dependency>
+		  <groupId>org.mc</groupId>
+		  <artifactId>mc-springcloudext-quickwebstart</artifactId>
+		  <version>1.0-SNAPSHOT</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-security</artifactId>
+	  </dependency>
+	  <dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>${jsonwebtoken.v}</version>
+		</dependency>
+  </dependencies>
+ 
+</project>
